@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWorldUI", "HelloWorldUI\HelloWorldUI.csproj", "{A5DFEFBA-1CDB-408D-886C-4BAF29440B93}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prognoza", "Prognoza\Prognoza.csproj", "{9B6F54E7-C5AB-4618-8653-AC5F4BE41F2F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -13,5 +15,9 @@ Global
 		{A5DFEFBA-1CDB-408D-886C-4BAF29440B93}.Debug|x86.Build.0 = Debug|x86
 		{A5DFEFBA-1CDB-408D-886C-4BAF29440B93}.Release|x86.ActiveCfg = Release|x86
 		{A5DFEFBA-1CDB-408D-886C-4BAF29440B93}.Release|x86.Build.0 = Release|x86
+		{9B6F54E7-C5AB-4618-8653-AC5F4BE41F2F}.Debug|x86.ActiveCfg = Debug|x86
+		{9B6F54E7-C5AB-4618-8653-AC5F4BE41F2F}.Debug|x86.Build.0 = Debug|x86
+		{9B6F54E7-C5AB-4618-8653-AC5F4BE41F2F}.Release|x86.ActiveCfg = Release|x86
+		{9B6F54E7-C5AB-4618-8653-AC5F4BE41F2F}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 EndGlobal
