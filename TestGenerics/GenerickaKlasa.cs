@@ -9,12 +9,14 @@ namespace TestGenerics
 		// primjer metoda koja vraća instancu tipa T (još nepoznatog)
 		public static T kreirajInstancu()
 		{
+			// sigurni smo da tip T (koji god bude) će imati prazan konstruktor zbog uvjeta where T : new()
 			return new T();
 		}
 
 		// primjer metode koja prima parametre tipa T
 		public static void usporedi(T a, T b)
 		{
+			// sigurni smo da tip T ima CompareTo metodu zbog uvjeta where T : IComparable<T>
 			int usporedba = a.CompareTo(b);
 
 			if (usporedba < 0)
@@ -29,11 +31,6 @@ namespace TestGenerics
 			{
 				Console.WriteLine("{0} i {1} su isti", a, b);
 			}
-		}
-
-		public static T maksimum(List<T> lista)
-		{
-			return default(T);
 		}
 	}
 }
