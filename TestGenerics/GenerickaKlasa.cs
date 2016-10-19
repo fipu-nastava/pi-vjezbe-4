@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace TestGenerics
 {
@@ -28,6 +29,11 @@ namespace TestGenerics
 			{
 				Console.WriteLine("{0} i {1} su isti", a, b);
 			}
+		}
+
+		public static T maksimum(List<T> lista)
+		{
+			return default(T);
 		}
 	}
 }
