@@ -13,8 +13,8 @@ namespace Test
 			hrt.PadaKisa += MetodaKojaUzimaKisobran;
 			novatv.PadaKisa += MetodaKojaUzimaKisobran;
 
-			hrt.ProvjeraDaLiPadaKisa();
-			novatv.ProvjeraDaLiPadaKisa();
+			hrt.ProvjeriVrijeme();
+			novatv.ProvjeriVrijeme();
 		}
 
 		public static void MetodaKojaUzimaKisobran(Prognoza nepoznatiPosiljatelj, KisaEventArgs informacije)
