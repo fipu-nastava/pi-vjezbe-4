@@ -20,7 +20,7 @@ namespace HelloWorldUI
 			Application.Run();
 
 			Console.WriteLine("Ja se izvršavam tek na izlasku iz aplikacije" +
-							  " zbog beskonačne petlje");
+			                  " zbog beskonačne petlje (main-loop)");
 		}
 	}
 }
