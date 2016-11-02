@@ -14,6 +14,7 @@ public partial class MainWindow : Window
 	 */
 	public MainWindow() : base(WindowType.Toplevel)
 	{
+
 		// instanciranje labele za prikaz teksta
 		var lab1 = new Label();
 		lab1.LabelProp = "Hello World!";

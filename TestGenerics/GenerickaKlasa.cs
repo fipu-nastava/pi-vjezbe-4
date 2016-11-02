@@ -21,16 +21,17 @@ namespace TestGenerics
 
 			if (usporedba < 0)
 			{
-				Console.WriteLine("{0} je veći od {1}", a, b);
+				Console.WriteLine("{0} je manji od {1}", a, b);
 			}
 			else if (usporedba > 0)
 			{
-				Console.WriteLine("{0} je veći od {1}", b, a);
+				Console.WriteLine("{0} je veći od {1}", a, b);
 			}
 			else 
 			{
 				Console.WriteLine("{0} i {1} su isti", a, b);
 			}
 		}
+
 	}
 }
