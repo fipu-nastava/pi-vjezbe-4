@@ -35,8 +35,11 @@ namespace Test
 			// dodatne informacije sadrže vrijeme kad je kiša počela
 			KisaEventArgs info = new KisaEventArgs(DateTime.Now);
 
-			// pošalji signal da pada kiša s informacijom o posiljatelju i dodatnim informacijama
-			PadaKisa(this, info);
+			// pošalji signal da pada kiša s informacijom o pošiljatelju i dodatnim informacijama
+			if (PadaKisa != null) // da li uopće netko sluša?
+			{
+				PadaKisa(this, info);
+			}
 		}
 
 		protected virtual void SignalizirajPrestanakKise()
@@ -44,8 +47,11 @@ namespace Test
 			// dodatne informacije sadrže vrijeme kad je kiša prestala padati
 			KisaEventArgs info = new KisaEventArgs(DateTime.Now);
 
-			// pošalji signal da pada kiša s informacijom o posiljatelju i dodatnim informacijama
-			NePadaKisa(this, info);
+			// pošalji signal da pada kiša s informacijom o pošiljatelju i dodatnim informacijama
+			if (NePadaKisa != null) // da li uopće netko sluša?
+			{
+				NePadaKisa(this, info);
+			}
 		}
 
 		public void ProvjeriVrijeme()
@@ -57,12 +63,12 @@ namespace Test
 
 			if (trenutnoVrijeme == MoguceVrijeme.Kisa)
 			{
-				Console.WriteLine("Signaliziram da pada kiša pomoću metode za signalizaciju");
+				Console.WriteLine("{0} prognoza šalje signal da pada kiša", this.Naziv);
 				SignalizirajKisu();
 			}
 			else if (trenutnoVrijeme != MoguceVrijeme.Sunce)
 			{
-				Console.WriteLine("Signaliziram da je kiša prestala padati");
+				Console.WriteLine("{0} prognoza šalje signal da je kiša prestala padati", this.Naziv);
 				SignalizirajPrestanakKise();
 			}
 		}

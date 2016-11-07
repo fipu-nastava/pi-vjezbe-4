@@ -15,6 +15,8 @@ namespace Test
 
 			hrt.ProvjeriVrijeme();
 			novatv.ProvjeriVrijeme();
+
+			Console.ReadKey();
 		}
 
 		public static void MetodaKojaUzimaKisobran(Prognoza nepoznatiPosiljatelj, KisaEventArgs informacije)
