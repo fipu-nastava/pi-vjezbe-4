@@ -7,8 +7,6 @@ public partial class MainWindow
 
 	private global::Gtk.Label label1;
 
-	private global::Gtk.Button button1;
-
 	protected virtual void Build()
 	{
 		global::Stetic.Gui.Initialize(this);
@@ -28,20 +26,6 @@ public partial class MainWindow
 		global::Gtk.Box.BoxChild w1 = ((global::Gtk.Box.BoxChild)(this.vbox1[this.label1]));
 		w1.Position = 0;
 		w1.Fill = false;
-		// Container child vbox1.Gtk.Box+BoxChild
-		this.button1 = new global::Gtk.Button();
-		this.button1.CanFocus = true;
-		this.button1.Name = "button1";
-		this.button1.UseUnderline = true;
-		this.button1.Label = global::Mono.Unix.Catalog.GetString("_Save");
-		global::Gtk.Image w2 = new global::Gtk.Image();
-		this.button1.Image = w2;
-		this.vbox1.Add(this.button1);
-		global::Gtk.Box.BoxChild w3 = ((global::Gtk.Box.BoxChild)(this.vbox1[this.button1]));
-		w3.PackType = ((global::Gtk.PackType)(1));
-		w3.Position = 1;
-		w3.Expand = false;
-		w3.Fill = false;
 		this.Add(this.vbox1);
 		if ((this.Child != null))
 		{

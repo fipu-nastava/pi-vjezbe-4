@@ -66,7 +66,7 @@ namespace Test
 				Console.WriteLine("{0} prognoza šalje signal da pada kiša", this.Naziv);
 				SignalizirajKisu();
 			}
-			else if (trenutnoVrijeme != MoguceVrijeme.Sunce)
+			else if (trenutnoVrijeme == MoguceVrijeme.Sunce)
 			{
 				Console.WriteLine("{0} prognoza šalje signal da je kiša prestala padati", this.Naziv);
 				SignalizirajPrestanakKise();
