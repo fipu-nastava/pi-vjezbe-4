@@ -33,5 +33,20 @@ namespace TestGenerics
 			}
 		}
 
+		// metoda koja vraća najveću vrijednost
+		public static T Maksimum(List<T> lista)
+		{
+			T najveci = default(T);
+
+			foreach (var l in lista)
+			{
+				if (l.CompareTo(najveci) > 0)
+				{
+					najveci = l;
+				}
+			}
+
+			return najveci;
+		}
 	}
 }

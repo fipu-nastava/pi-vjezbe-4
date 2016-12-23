@@ -30,7 +30,7 @@ namespace Test
 		// događaj prestanka padanja kiše
 		public event PadaKisaEventHandler NePadaKisa;
 
-		protected virtual void SignalizirajKisu()
+		protected void SignalizirajKisu()
 		{
 			// dodatne informacije sadrže vrijeme kad je kiša počela
 			KisaEventArgs info = new KisaEventArgs(DateTime.Now);
@@ -42,7 +42,7 @@ namespace Test
 			}
 		}
 
-		protected virtual void SignalizirajPrestanakKise()
+		protected void SignalizirajPrestanakKise()
 		{
 			// dodatne informacije sadrže vrijeme kad je kiša prestala padati
 			KisaEventArgs info = new KisaEventArgs(DateTime.Now);
