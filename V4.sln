@@ -9,10 +9,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenerickiTipovi", "TestGene
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatickeKlase", "StatickeKlase\StatickeKlase.csproj", "{1EA67820-1BC6-481F-A1B0-B2056C439DAA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loto", "Loto\Loto.csproj", "{C2767EB4-267D-4641-855B-D86FB700AC22}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kalkulator", "Kalkulator\Kalkulator.csproj", "{A88B59EC-3A5F-4BA8-842B-498C07E73A4B}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -35,13 +31,5 @@ Global
 		{1EA67820-1BC6-481F-A1B0-B2056C439DAA}.Debug|x86.Build.0 = Debug|x86
 		{1EA67820-1BC6-481F-A1B0-B2056C439DAA}.Release|x86.ActiveCfg = Release|x86
 		{1EA67820-1BC6-481F-A1B0-B2056C439DAA}.Release|x86.Build.0 = Release|x86
-		{C2767EB4-267D-4641-855B-D86FB700AC22}.Debug|x86.ActiveCfg = Debug|x86
-		{C2767EB4-267D-4641-855B-D86FB700AC22}.Debug|x86.Build.0 = Debug|x86
-		{C2767EB4-267D-4641-855B-D86FB700AC22}.Release|x86.ActiveCfg = Release|x86
-		{C2767EB4-267D-4641-855B-D86FB700AC22}.Release|x86.Build.0 = Release|x86
-		{A88B59EC-3A5F-4BA8-842B-498C07E73A4B}.Debug|x86.ActiveCfg = Debug|x86
-		{A88B59EC-3A5F-4BA8-842B-498C07E73A4B}.Debug|x86.Build.0 = Debug|x86
-		{A88B59EC-3A5F-4BA8-842B-498C07E73A4B}.Release|x86.ActiveCfg = Release|x86
-		{A88B59EC-3A5F-4BA8-842B-498C07E73A4B}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 EndGlobal

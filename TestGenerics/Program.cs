@@ -16,7 +16,9 @@ namespace TestGenerics
 			List<double> lista = new List<double>() { 1.0, 2.0, 0.5, 1.5, 3.5, -1};
 			String ispisListe = String.Join(", ", lista);
 
-			double najveci = GenerickaKlasa<double>.Maksimum(lista);
+            // implementiraj me!
+			// double najveci = GenerickaKlasa<double>.Maksimum(lista);
+
 			System.Console.WriteLine("Najveći broj iz skupa ({0}) je: {1}", ispisListe, najveci);
 		}
 	}
