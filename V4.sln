@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loto", "Loto\Loto.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kalkulator", "Kalkulator\Kalkulator.csproj", "{A88B59EC-3A5F-4BA8-842B-498C07E73A4B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Singleton\Singleton.csproj", "{1BBF7E9F-EE47-4FBC-B337-9E13B4AE8EF8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -43,5 +45,9 @@ Global
 		{A88B59EC-3A5F-4BA8-842B-498C07E73A4B}.Debug|x86.Build.0 = Debug|x86
 		{A88B59EC-3A5F-4BA8-842B-498C07E73A4B}.Release|x86.ActiveCfg = Release|x86
 		{A88B59EC-3A5F-4BA8-842B-498C07E73A4B}.Release|x86.Build.0 = Release|x86
+		{1BBF7E9F-EE47-4FBC-B337-9E13B4AE8EF8}.Debug|x86.ActiveCfg = Debug|x86
+		{1BBF7E9F-EE47-4FBC-B337-9E13B4AE8EF8}.Debug|x86.Build.0 = Debug|x86
+		{1BBF7E9F-EE47-4FBC-B337-9E13B4AE8EF8}.Release|x86.ActiveCfg = Release|x86
+		{1BBF7E9F-EE47-4FBC-B337-9E13B4AE8EF8}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 EndGlobal
