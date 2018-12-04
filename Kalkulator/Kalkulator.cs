@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace Kalkulator
 {
-    public partial class Kalkulator : Form
+    public partial class Kalkulator : MetroFramework.Forms.MetroForm 
     {
         struct Unos
         {
@@ -25,6 +25,8 @@ namespace Kalkulator
         public Kalkulator()
         {
             InitializeComponent();
+            metroStyleManager1.Style = MetroFramework.MetroColorStyle.Brown;
+            metroStyleManager1.Theme = MetroFramework.MetroThemeStyle.Dark;
         }
 
 
