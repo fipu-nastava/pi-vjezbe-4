@@ -1,0 +1,43 @@
+﻿<Properties StartupConfiguration="{A88B59EC-3A5F-4BA8-842B-498C07E73A4B}|Default">
+  <MonoDevelop.Ide.ItemProperties.Prognoza PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.Singleton PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="HelloWorldUI/MainWindow.cs">
+    <Files>
+      <File FileName="TestGenerics/Program.cs" Line="23" Column="1" />
+      <File FileName="TestGenerics/GenerickaKlasa.cs" Line="1" Column="1" />
+      <File FileName="Loto/OdabirBrojeva.cs" Line="1" Column="1" />
+      <File FileName="Loto/Program.cs" Line="1" Column="1" />
+      <File FileName="Loto/MainWindow.cs" Line="1" Column="1" />
+      <File FileName="Kalkulator/MainWindow.cs" Line="1" Column="1" />
+      <File FileName="StatickeKlase/Program.cs" Line="22" Column="1" />
+      <File FileName="Singleton/NekaSingletonKlasa.cs" Line="1" Column="1" />
+      <File FileName="HelloWorldUI/MainWindow.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="V4" expanded="True">
+            <Node name="GenerickiTipovi" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State name="__root__">
+          <Node name="V4" expanded="True" selected="True" />
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.HelloWorldUI PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.GenerickiTipovi PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Kalkulator PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

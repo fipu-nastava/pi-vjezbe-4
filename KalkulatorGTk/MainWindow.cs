@@ -144,6 +144,7 @@ public partial class MainWindow : Gtk.Window
 		return result;
 	}
 
+	// Pronađi sve elemente unutar prozora tipa "T" i provedi metodu "c" nad njima
 	public void ForAll<T>(Callback c, Gtk.Container parent = null) where T : Gtk.Object
 	{
 		parent = (parent != null) ? parent : this;
