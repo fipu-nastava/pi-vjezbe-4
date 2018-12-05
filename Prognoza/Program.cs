@@ -13,8 +13,8 @@ namespace Test
 			hrt.PadaKisa += MetodaKojaUzimaKisobran;
 			novatv.PadaKisa += MetodaKojaUzimaKisobran;
 
-			hrt.NePadaKisa += MetodaKojaSklanjaKisobran;
-			novatv.NePadaKisa += MetodaKojaSklanjaKisobran;
+            hrt.Suncano += MetodaKojaUzimaNaocale;
+			novatv.Suncano += MetodaKojaUzimaNaocale;
 
 			hrt.ProvjeriVrijeme();
 			novatv.ProvjeriVrijeme();
@@ -24,12 +24,12 @@ namespace Test
 
 		public static void MetodaKojaUzimaKisobran(Prognoza nepoznatiPosiljatelj, KisaEventArgs informacije)
 		{
-			System.Console.WriteLine("Uzimam kišobran jer {0} prognoza {1} kaže da moram!", nepoznatiPosiljatelj.Naziv, informacije.Vrijeme);
+			System.Console.WriteLine("Uzimam kišobran jer {0} prognoza {1} kaže da je kiša!", nepoznatiPosiljatelj.Naziv, informacije.Vrijeme);
 		}
 
-		public static void MetodaKojaSklanjaKisobran(Prognoza posiljatelj, KisaEventArgs info)
+		public static void MetodaKojaUzimaNaocale(Prognoza posiljatelj, KisaEventArgs info)
 		{
-			System.Console.WriteLine("Mičem kišobran jer {0} prognoza {1} kaže da je sunce!", posiljatelj.Naziv, info.Vrijeme);
+			System.Console.WriteLine("Uzimam naočale jer {0} prognoza {1} kaže da je sunce!", posiljatelj.Naziv, info.Vrijeme);
 		}
 	}
 }

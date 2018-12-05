@@ -12,7 +12,7 @@ namespace Test
 
 	public class Prognoza
 	{
-		private enum MoguceVrijeme { Kisa, Sunce, Oblacno };
+		private enum MoguceVrijeme { Kisa, Sunce };
 
 		public String Naziv { get; set;}
 
@@ -28,7 +28,7 @@ namespace Test
 		public event PadaKisaEventHandler PadaKisa;
 
 		// događaj prestanka padanja kiše
-		public event PadaKisaEventHandler NePadaKisa;
+		public event PadaKisaEventHandler Suncano;
 
 		protected void SignalizirajKisu()
 		{
@@ -48,9 +48,9 @@ namespace Test
 			KisaEventArgs info = new KisaEventArgs(DateTime.Now);
 
 			// pošalji signal da pada kiša s informacijom o pošiljatelju i dodatnim informacijama
-			if (NePadaKisa != null) // da li uopće netko sluša?
+			if (Suncano != null) // da li uopće netko sluša?
 			{
-				NePadaKisa(this, info);
+				Suncano(this, info);
 			}
 		}
 
@@ -68,7 +68,7 @@ namespace Test
 			}
 			else if (trenutnoVrijeme == MoguceVrijeme.Sunce)
 			{
-				Console.WriteLine("{0} prognoza šalje signal da je kiša prestala padati", this.Naziv);
+				Console.WriteLine("{0} prognoza šalje signal da je sunce", this.Naziv);
 				SignalizirajPrestanakKise();
 			}
 		}

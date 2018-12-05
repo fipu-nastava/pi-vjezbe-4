@@ -25,8 +25,6 @@ namespace Kalkulator
         public Kalkulator()
         {
             InitializeComponent();
-            metroStyleManager1.Style = MetroFramework.MetroColorStyle.Brown;
-            metroStyleManager1.Theme = MetroFramework.MetroThemeStyle.Dark;
         }
 
 
